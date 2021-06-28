@@ -8,7 +8,7 @@ I am Atharva Joshi. I am programming freak and have a strong media and communica
 
 ## 😄 Pronouns: 
 
-He/Her
+He/His
 
 ## 🌱 What do I do and What I have done?
 
