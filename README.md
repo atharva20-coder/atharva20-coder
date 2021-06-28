@@ -42,7 +42,7 @@ I like everything I do to be well-organized.
 ## 📫 How to reach me: ...
 
 - [<img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white">](atharvajoshi131995@gmail.com)<br>
-- [(<img src = "https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white">](https://discord.gg/WyxF8W97cD)<br>
+- [<img src = "https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white">](https://discord.gg/WyxF8W97cD)<br>
 - [<img src = "https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white">](https://www.instagram.com/atharva20_coder/)<br>
 
 - ![Atharva Joshi](https://www.devatharva.com/)<br>
