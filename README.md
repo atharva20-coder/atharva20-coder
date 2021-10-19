@@ -51,3 +51,6 @@ I like everything I do to be well-organized.
 
 <img height="180em" src="https://github-readme-stats.vercel.app/api?username=atharva20-coder&show_icons=true&hide_border=true&&count_private=true&include_all_commits=true" />
 
+<span title="Label: Pro" data-view-component="true" class="Label Label--purple text-uppercase">
+  Pro
+</span>
