@@ -14,7 +14,7 @@ He/His
 
 - I write blogs and teach people coding.
 - Content creator at YouTube. Posts tutorial about programming.
-- GSoC aspirant.
+- GSoC.
 - microsoft Student Ambassador.
 - Gardening is my hobby and programming is my passion.
 <br>
