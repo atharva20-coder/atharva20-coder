@@ -18,6 +18,7 @@ He/His
 - microsoft Student Ambassador.
 - Gardening is my hobby and programming is my passion.
 <br>
+<span>
 <img src = "https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)">
 <img src = "https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
 <img src = "https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
@@ -31,7 +32,7 @@ He/His
 <img src ="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node-dot-js&logoColor=white">
 <img src ="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white">
 <img src ="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
-
+</span>
 
 ## ✨ One line that describes me best.
 I like everything I do to be well-organized.
@@ -46,8 +47,8 @@ I like everything I do to be well-organized.
 - [<img src = "https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white">](https://discord.gg/WyxF8W97cD)<br>
 - [<img src = "https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white">](https://www.instagram.com/atharva20_coder/)<br>
 
-- ![Atharva Joshi](https://www.devatharva.com/)<br>
-- ![✍ Read my blogs](https://atharvacodes.netlify.app/)<br>
+- ![Atharva Joshi](https://atharvabullshit.vercel.app/)<br>
+- ![✍ Read my blogs](https://atharvabullshit.vercel.app/blogs-notes)<br>
 
 <img height="180em" src="https://github-readme-stats.vercel.app/api?username=atharva20-coder&show_icons=true&hide_border=true&&count_private=true&include_all_commits=true" />
 
