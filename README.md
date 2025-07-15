@@ -1,53 +1,151 @@
-### Hi geeks 👋
+import React from "react";
 
-<!--
-**atharva20-coder/atharva20-coder** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
--->
+export default function ResumeWebsite() {
+  return (
+    <main className="min-h-screen bg-white text-gray-900 font-sans p-8">
+      <section className="max-w-4xl mx-auto">
+        <header className="text-center mb-8">
+          <h1 className="text-4xl font-bold">Atharva Sandip Joshi</h1>
+          <p className="mt-2">Mumbai, India · <a className="text-blue-600" href="mailto:atharvajoshi2520@gmail.com">atharvajoshi2520@gmail.com</a></p>
+          <p>
+            <a href="https://linkedin.com/in/atharva20" className="text-blue-600">LinkedIn</a> | 
+            <a href="https://github.com/atharva20-coder" className="text-blue-600"> GitHub</a>
+          </p>
+        </header>
 
-I am Atharva Joshi. I am programming freak and have a strong media and communication proffesional with B-Tech in electrical engineering. Despite of my major in Electrical Engineering I have keen focus on computer's field. I am an experienced developer skilled in C, C++, Java, MySQL, Full Stack Development, MERN Stack, Javascript and its framework. My activites are much beyond my stream of education. ⚡ I am involved in a lot of hackathons which helped me building my community from scratch.
+        <Section title="✨ Summary">
+          <p>
+            Engineer with a strong foundation in full-stack development, real-time embedded systems, and applied ML. Built and deployed tools in AI diagnostics, automation, and social media. Solved 255+ LeetCode problems and currently mentoring beginners via YouTube to clarify core DSA concepts.
+          </p>
+        </Section>
 
-## 😄 Pronouns: 
+        <Section title="💼 Experience">
+          <Experience
+            role="Web Developer"
+            company="MechHelp, Nagpur"
+            duration="Sept 2024 – March 2025"
+            bullets={[
+              "Developed and deployed the official company website with Firebase integration.",
+              "Automated deployment workflows using Git and shell scripts, reducing manual updates by 80%."
+            ]}
+          />
+          <Experience
+            role="Research Intern"
+            company="RCOEM, Nagpur"
+            duration="Dec 2023 – May 2024"
+            bullets={[
+              "Built and deployed PyTorch-based leaf disease classifier with Django web UI.",
+              "Achieved 94%+ classification accuracy using MobileNetV2 and real-time inference."
+            ]}
+          />
+        </Section>
 
-He/His
+        <Section title="💡 Skills">
+          <Skill title="Languages" items={["Java", "Python", "C++", "SQL", "JavaScript"]} />
+          <Skill title="Web/Backend" items={["Next.js", "Django", "Node.js", "Prisma", "Firebase"]} />
+          <Skill title="AI/ML" items={["PyTorch", "TensorFlow", "Keras", "OpenCV"]} />
+          <Skill title="Databases" items={["MySQL", "PostgreSQL", "Firebase"]} />
+          <Skill title="Systems & Tools" items={["Embedded C", "Arduino", "Multithreading", "Git", "Docker"]} />
+        </Section>
 
-## 🌱 What do I do and What I have done?
+        <Section title="📚 Projects">
+          <Project
+            title="Swoopin – AI-Powered Social Media Automation Tool"
+            link="https://swoopin.vercel.app"
+            bullets={[
+              "Built a full-stack SaaS integrating OpenAI and Instagram APIs to automate content workflows.",
+              "Integrated Stripe billing and caching to reduce latency by 40%."
+            ]}
+          />
+          <Project
+            title="CyberGrid Guardian – Real-Time Fault Monitoring"
+            link="https://github.com/atharva20-coder/cyberGrid"
+            bullets={[
+              "Java Swing app to monitor SPI data from Arduino sensors and visualize anomalies.",
+              "Stored logs in MySQL using JDBC and visualized via jFreeChart."
+            ]}
+          />
+          <Project
+            title="Apple Leaf Disease Classifier"
+            link="https://colab.research.google.com/drive/172facR1dMm7p9kZMLFWLLiNpj-mZDgsh"
+            bullets={[
+              "Trained MobileNetV2 model for 94%+ accurate disease classification.",
+              "Deployed with Django for real-time inference UI."
+            ]}
+          />
+          <Project
+            title="SolAlign – Solar Tilt Calculator"
+            link="https://devatharvajoshi.vercel.app/solalign"
+            bullets={[
+              "Android app for computing solar panel tilt using GPS and seasonal factors.",
+              "Used by field engineers in 4+ districts."
+            ]}
+          />
+        </Section>
 
-- I write blogs and teach people coding.
-- Content creator at YouTube. Posts tutorial about programming.
-- Gardening is my hobby and programming is my passion.
-<br>
-<span>
-<img src = "https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)">
-<img src = "https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
-<img src = "https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
-<img src = "https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white">
-<img src = "https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white">
-<img src = "https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white">
-<img src = "https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white">
-<img src = "https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white">
-<img src = "https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white">
-<img src ="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
-<img src ="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node-dot-js&logoColor=white">
-<img src ="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white">
-<img src ="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
-</span>
+        <Section title="🎓 Education">
+          <p>
+            <strong>B.Tech – Electrical Engineering</strong>  
+            <br/>Shri Ramdeobaba College of Engineering, Nagpur  
+            <br/>Graduated: May 2024 | CGPA: 9.66 / 10 (Dean’s Topper)
+          </p>
+        </Section>
 
-## ✨ One line that describes me best.
-I like everything I do to be well-organized.
+        <Section title="🏆 Achievements">
+          <ul className="list-disc list-inside">
+            <li>Solved 255+ LeetCode problems in Trees, Graphs, and DP.</li>
+            <li>Created a YouTube channel teaching DSA to beginners.</li>
+            <li>Dean’s Scholar 4 years in a row.</li>
+            <li>Selected for state-level tech exhibitions (AI, automation).</li>
+          </ul>
+        </Section>
 
-## 🔭 I’m currently working on ...
- 
- A react native project
- 
-## 📫 How to reach me: ...
+        <Section title="📖 Certifications">
+          <ul className="list-disc list-inside">
+            <li>TensorFlow for Deep Learning – Google/Udacity</li>
+            <li>Cloud App Dev with Node.js and React – IBM</li>
+            <li>Data Analysis Fundamentals – LT EduTech</li>
+          </ul>
+        </Section>
+      </section>
+    </main>
+  );
+}
 
-- [<img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white">](atharvajoshi131995@gmail.com)<br>
-- [<img src = "https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white">](https://discord.gg/WyxF8W97cD)<br>
-- [<img src = "https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white">](https://www.instagram.com/atharva20_coder/)<br>
+function Section({ title, children }) {
+  return (
+    <div className="mb-8">
+      <h2 className="text-xl font-semibold border-b border-gray-300 pb-1 mb-2">{title}</h2>
+      {children}
+    </div>
+  );
+}
 
-- ![Atharva Joshi](https://atharvabullshit.vercel.app/)<br>
-- ![✍ Read my blogs](https://atharvabullshit.vercel.app/blogs-notes)<br>
+function Experience({ role, company, duration, bullets }) {
+  return (
+    <div className="mb-4">
+      <h3 className="font-bold">{role} – {company}</h3>
+      <p className="text-sm italic mb-1">{duration}</p>
+      <ul className="list-disc list-inside text-sm">
+        {bullets.map((b, i) => <li key={i}>{b}</li>)}
+      </ul>
+    </div>
+  );
+}
 
-### badges
+function Skill({ title, items }) {
+  return (
+    <p><strong>{title}:</strong> {items.join(", ")}</p>
+  );
+}
 
-[![@atharva20coder's Holopin board](https://holopin.me/atharva20coder)](https://holopin.io/@atharva20coder)
+function Project({ title, link, bullets }) {
+  return (
+    <div className="mb-4">
+      <a href={link} target="_blank" rel="noopener noreferrer" className="text-blue-600 font-bold">{title}</a>
+      <ul className="list-disc list-inside text-sm">
+        {bullets.map((b, i) => <li key={i}>{b}</li>)}
+      </ul>
+    </div>
+  );
+}
