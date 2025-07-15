@@ -2,87 +2,111 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Atharva Joshi | Resume</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Atharva Sandip Joshi - Resume</title>
   <style>
     body {
       font-family: sans-serif;
-      line-height: 1.6;
-      background: #fdfdfd;
-      color: #333;
-      padding: 20px;
       margin: 0;
+      padding: 2rem;
+      background-color: white;
+      color: #1a202c;
     }
-
     .container {
-      max-width: 900px;
-      margin: auto;
-      background: white;
-      padding: 30px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      max-width: 800px;
+      margin: 0 auto;
+      position: relative;
     }
-
     header {
       text-align: center;
       margin-bottom: 2rem;
     }
-
     h1 {
-      font-size: 2rem;
-      margin-bottom: 0.2rem;
+      font-size: 2.5rem;
+      font-weight: bold;
     }
-
-    a {
-      color: #1a73e8;
-      text-decoration: none;
-    }
-
     section {
       margin-bottom: 2rem;
     }
-
-    ul {
-      padding-left: 1.2rem;
-    }
-
-    ul ul {
-      margin-top: 0.5rem;
+    h2 {
+      font-size: 1.25rem;
+      font-weight: 600;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 0.25rem;
       margin-bottom: 0.5rem;
+    }
+    h3 {
+      font-weight: bold;
+    }
+    .italic {
+      font-style: italic;
+    }
+    .list {
+      list-style-type: disc;
+      padding-left: 1.25rem;
+      font-size: 0.95rem;
+    }
+    a {
+      color: #2563eb;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    p, li {
+      margin-bottom: 0.5rem;
+    }
+    #downloadBtn {
+      position: absolute;
+      top: 1rem;
+      right: 1rem;
+      padding: 0.5rem 1.5rem;
+      background-color: #6b7280;
+      color: white;
+      font-weight: bold;
+      border: none;
+      border-radius: 9999px;
+      cursor: pointer;
+    }
+    #downloadBtn:hover {
+      background-color: #4b5563;
     }
   </style>
 </head>
 <body>
-  <main class="container">
+  <main class="container" id="resumeContent">
+    <button id="downloadBtn">Download as PDF</button>
     <header>
       <h1>Atharva Sandip Joshi</h1>
       <p>Mumbai, India · <a href="mailto:atharvajoshi2520@gmail.com">atharvajoshi2520@gmail.com</a></p>
-      <p>
-        <a href="https://linkedin.com/in/atharva20">LinkedIn</a> |
-        <a href="https://github.com/atharva20-coder">GitHub</a>
-      </p>
+      <p><a href="https://linkedin.com/in/atharva20">LinkedIn</a> | <a href="https://github.com/atharva20-coder">GitHub</a></p>
     </header>
 
     <section>
       <h2>✨ Summary</h2>
-      <p>Engineer with a strong foundation in full-stack development, real-time embedded systems, and applied ML. Built and deployed tools in AI diagnostics, automation, and social media. Solved 255+ LeetCode problems and currently mentoring beginners via YouTube to clarify core DSA concepts.</p>
+      <p>
+        Engineer with a strong foundation in full-stack development, real-time embedded systems, and applied ML. Built and deployed tools in AI diagnostics, automation, and social media. Solved 255+ LeetCode problems and currently mentoring beginners via YouTube to clarify core DSA concepts.
+      </p>
     </section>
 
     <section>
       <h2>💼 Experience</h2>
-      <ul>
-        <li><strong>Web Developer</strong> – MechHelp, Nagpur (Sept 2024 – March 2025)
-          <ul>
-            <li>Developed and deployed company website with Firebase integration.</li>
-            <li>Automated deployments using Git and shell scripting.</li>
-          </ul>
-        </li>
-        <li><strong>Research Intern</strong> – RCOEM, Nagpur (Dec 2023 – May 2024)
-          <ul>
-            <li>Built a PyTorch-based leaf disease classifier with Django UI.</li>
-            <li>Achieved 94%+ classification accuracy using MobileNetV2.</li>
-          </ul>
-        </li>
-      </ul>
+      <div>
+        <h3>Web Developer – MechHelp, Nagpur</h3>
+        <p class="italic">Sept 2024 – March 2025</p>
+        <ul class="list">
+          <li>Developed and deployed the official company website with Firebase integration.</li>
+          <li>Automated deployment workflows using Git and shell scripts, reducing manual updates by 80%.</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Research Intern – RCOEM, Nagpur</h3>
+        <p class="italic">Dec 2023 – May 2024</p>
+        <ul class="list">
+          <li>Built and deployed PyTorch-based leaf disease classifier with Django web UI.</li>
+          <li>Achieved 94%+ classification accuracy using MobileNetV2 and real-time inference.</li>
+        </ul>
+      </div>
     </section>
 
     <section>
@@ -96,44 +120,50 @@
 
     <section>
       <h2>📚 Projects</h2>
-      <ul>
-        <li><a href="https://swoopin.vercel.app">Swoopin – AI Social Media Automation Tool</a>
-          <ul>
-            <li>Full-stack SaaS using OpenAI + Instagram API.</li>
-            <li>Stripe billing + server caching reduced latency 40%.</li>
-          </ul>
-        </li>
-        <li><a href="https://github.com/atharva20-coder/cyberGrid">CyberGrid Guardian</a>
-          <ul>
-            <li>Java Swing app monitoring SPI sensor data in real-time.</li>
-            <li>Data visualization with jFreeChart + MySQL backend.</li>
-          </ul>
-        </li>
-        <li><a href="https://colab.research.google.com/drive/172facR1dMm7p9kZMLFWLLiNpj-mZDgsh">Apple Leaf Disease Classifier</a>
-          <ul>
-            <li>94%+ accurate PyTorch MobileNetV2 model with real-time inference.</li>
-          </ul>
-        </li>
-        <li><a href="https://devatharvajoshi.vercel.app/solalign">SolAlign – Solar Tilt App</a>
-          <ul>
-            <li>Android GPS-based app used in 4+ districts by installers.</li>
-          </ul>
-        </li>
-      </ul>
+      <div>
+        <a href="https://swoopin.vercel.app" target="_blank"><strong>Swoopin – AI-Powered Social Media Automation Tool</strong></a>
+        <ul class="list">
+          <li>Built a full-stack SaaS integrating OpenAI and Instagram APIs to automate content workflows.</li>
+          <li>Integrated Stripe billing and caching to reduce latency by 40%.</li>
+        </ul>
+      </div>
+      <div>
+        <a href="https://github.com/atharva20-coder/cyberGrid" target="_blank"><strong>CyberGrid Guardian – Real-Time Fault Monitoring</strong></a>
+        <ul class="list">
+          <li>Java Swing app to monitor SPI data from Arduino sensors and visualize anomalies.</li>
+          <li>Stored logs in MySQL using JDBC and visualized via jFreeChart.</li>
+        </ul>
+      </div>
+      <div>
+        <a href="https://colab.research.google.com/drive/172facR1dMm7p9kZMLFWLLiNpj-mZDgsh" target="_blank"><strong>Apple Leaf Disease Classifier</strong></a>
+        <ul class="list">
+          <li>Trained MobileNetV2 model for 94%+ accurate disease classification.</li>
+          <li>Deployed with Django for real-time inference UI.</li>
+        </ul>
+      </div>
+      <div>
+        <a href="https://devatharvajoshi.vercel.app/solalign" target="_blank"><strong>SolAlign – Solar Tilt Calculator</strong></a>
+        <ul class="list">
+          <li>Android app for computing solar panel tilt using GPS and seasonal factors.</li>
+          <li>Used by field engineers in 4+ districts.</li>
+        </ul>
+      </div>
     </section>
 
     <section>
       <h2>🎓 Education</h2>
-      <p><strong>B.Tech – Electrical Engineering</strong><br/>
-      Shri Ramdeobaba College of Engineering, Nagpur<br/>
-      Graduated: May 2024 | CGPA: 9.66 / 10 (Dean’s Topper)</p>
+      <p>
+        <strong>B.Tech – Electrical Engineering</strong><br />
+        Shri Ramdeobaba College of Engineering, Nagpur<br />
+        Graduated: May 2024 | CGPA: 9.66 / 10 (Dean’s Topper)
+      </p>
     </section>
 
     <section>
       <h2>🏆 Achievements</h2>
-      <ul>
+      <ul class="list">
         <li>Solved 255+ LeetCode problems in Trees, Graphs, and DP.</li>
-        <li>Created YouTube channel teaching DSA to beginners.</li>
+        <li>Created a YouTube channel teaching DSA to beginners.</li>
         <li>Dean’s Scholar 4 years in a row.</li>
         <li>Selected for state-level tech exhibitions (AI, automation).</li>
       </ul>
@@ -141,12 +171,27 @@
 
     <section>
       <h2>📖 Certifications</h2>
-      <ul>
+      <ul class="list">
         <li>TensorFlow for Deep Learning – Google/Udacity</li>
         <li>Cloud App Dev with Node.js and React – IBM</li>
         <li>Data Analysis Fundamentals – LT EduTech</li>
       </ul>
     </section>
   </main>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+  <script>
+    document.getElementById("downloadBtn").addEventListener("click", function () {
+      const element = document.body; // Capture full body instead of just resumeContent
+      const opt = {
+        margin: 0.2,
+        filename: "Atharva_Joshi_Resume.pdf",
+        image: { type: "jpeg", quality: 0.98 },
+        html2canvas: { scale: 2, useCORS: true },
+        jsPDF: { unit: "in", format: "a4", orientation: "portrait" }
+      };
+      html2pdf().set(opt).from(element).save();
+    });
+  </script>
 </body>
 </html>
