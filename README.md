@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Dynamic Typing SVG -->
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=28&pause=1000&color=00D4FF&center=true&vCenter=true&width=700&lines=Hey%2C+I'm+Atharva+Joshi+%F0%9F%91%8B;GenAI+TPM+%40+Axis+Bank;Building+Agentic+AI+Systems;Prompt+Engineer+%7C+Voice+Bot+Architect" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=28&pause=1000&color=00D4FF&center=true&vCenter=true&width=700&lines=Hey%2C+I'm+Atharva+Joshi+%F0%9F%91%8B;Full-Stack+Developer;AI+%2F+ML+Engineer;Prompt+Engineer+%7C+Agentic+Systems;Building+things+that+matter+%F0%9F%9A%80" alt="Typing SVG" />
 
 <br/>
 
@@ -19,16 +19,16 @@
 ```yaml
 name: Atharva Sandip Joshi
 location: Mumbai, India 🇮🇳
-role: GenAI Technical Project/Product Manager @ Axis Bank
-focus:
-  - Agentic Voice Bot Development (ARIA — EMI Recovery & Procurement Negotiation)
-  - Prompt Engineering & Deterministic AI Logic
-  - Multi-Provider LLM Architecture (LiteLLM · vLLM · Vertex AI · Gemini)
-  - AI Systems at Scale in BFSI
+role: Full-Stack Developer & AI/ML Engineer
+passion:
+  - Building agentic AI systems & voice bots
+  - Prompt engineering & deterministic LLM logic
+  - Multi-provider LLM pipelines (LiteLLM · vLLM · Vertex AI · Gemini)
+  - Real-time embedded systems & hardware-software bridges
 background: B.Tech Electrical Engineering — RCOEM Nagpur (CGPA: 9.66 | Dean's Topper)
 currently_building:
   - AI Call Log Analyzer (multi-provider Python backend)
-  - ARIA-P — Procurement Negotiation Bot
+  - Agentic voice bots with structured prompt architecture
   - DSA tutorials on YouTube for beginners
 leetcode_solved: 255+
 ```
@@ -37,9 +37,9 @@ leetcode_solved: 255+
 
 ## 🚀 What I'm Working On
 
-- 🤖 **ARIA** — An agentic voice bot for bank EMI recovery with structured prompt engineering, tactic libraries, YAML-based context registers, and RBI-compliant guardrail modules
-- 🏗️ **ARIA-P** — Adapting ARIA's architecture into a procurement negotiation engine with three-axis objective registers and deterministic stage logic
-- 🔬 **AI Call Log Analyzer** — Python-based log analysis pipeline with LiteLLM, vLLM, and Vertex AI support
+- 🤖 **Agentic Voice Bots** — Structured prompt engineering with tactic libraries, YAML-based context registers, and deterministic decision logic
+- 🔬 **AI Call Log Analyzer** — Python pipeline with LiteLLM, vLLM, and Vertex AI multi-provider architecture
+- 🌐 **Full-Stack SaaS** — End-to-end products with Next.js, Django, Firebase, and Stripe integrations
 - 📚 **DSA on YouTube** — Teaching Trees, Graphs & DP to absolute beginners
 
 ---
@@ -86,11 +86,10 @@ leetcode_solved: 255+
 
 | Project | Description | Stack |
 |---|---|---|
-| [🤖 ARIA Voice Bot](https://github.com/atharva20-coder) | Agentic bank EMI recovery bot with tactic libraries, YAML registers & RBI guardrails | Python · LLM · YAML |
-| [🌐 Swoopin](https://swoopin.vercel.app) | AI-powered social media automation SaaS. 40% latency reduction via caching | Next.js · OpenAI · Stripe |
+| [🌐 Swoopin](https://swoopin.vercel.app) | AI-powered social media automation SaaS with 40% latency reduction via caching | Next.js · OpenAI · Stripe |
 | [🌿 Apple Leaf Classifier](https://colab.research.google.com/drive/172facR1dMm7p9kZMLFWLLiNpj-mZDgsh) | MobileNetV2 model achieving 94%+ accuracy for plant disease detection | PyTorch · Django |
-| [⚡ CyberGrid Guardian](https://github.com/atharva20-coder/cyberGrid) | Real-time fault monitoring system with Arduino-to-Java SPI data pipeline | Java · Arduino · MySQL |
-| [☀️ SolAlign](https://devatharvajoshi.vercel.app/solalign) | Solar panel tilt calculator used by field engineers across 4+ districts | Android · GPS |
+| [⚡ CyberGrid Guardian](https://github.com/atharva20-coder/cyberGrid) | Real-time fault monitoring with Arduino-to-Java SPI data pipeline & anomaly visualization | Java · Arduino · MySQL |
+| [☀️ SolAlign](https://devatharvajoshi.vercel.app/solalign) | Solar panel tilt calculator using GPS & seasonal factors — used by field engineers in 4+ districts | Android · GPS |
 | [✍️ TTH Text-to-Handwritten](https://github.com/atharva20-coder/TTH-Text-to-handwritten) | Converts typed text into realistic handwritten output | JavaScript |
 
 ---
@@ -134,7 +133,7 @@ leetcode_solved: 255+
 
 > *"Deterministic logic over cascading errors. Build only what is structurally necessary."*
 
-I'm always open to conversations about **Agentic AI**, **Voice Bots**, **Prompt Engineering**, **BFSI tech**, or just good old **DSA**.
+Always open to conversations about **Agentic AI**, **Voice Bots**, **Prompt Engineering**, **Full-Stack dev**, or just good old **DSA**.
 
 <div align="center">
 
